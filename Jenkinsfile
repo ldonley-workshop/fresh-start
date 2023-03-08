@@ -33,7 +33,7 @@ pipeline {
         }
       }
       steps { 
-        kanikoBuildPushGeneric("fresh-start", "latest", "core-flow-research/ldonley-workshop")
+        kanikoBuildPushGeneric("fresh-start", "latest", "cb-thunder-v2/ldonley-workshop")
         {
           checkout scm
         }
